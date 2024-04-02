@@ -5,7 +5,7 @@ if [ $# -ne 1 ]; then
     exit 1
 fi
 
-./TriangleCounting ../data/${1}/edges.csv 10000 1-0.001 2 6-150 1-1 2 > /home/ubuntu/graph-dp-experiments/graphs/gplus_10k
+./TriangleCounting ../data/${1}/edges.csv 10000 1-0.001 2 6-150 1-1 2 > /home/ubuntu/graph-dp-experiments/graphs/gplus_10k_sampled
 # ./TriangleCounting ../data/${1}/edges.csv 10000 1-0.001 2 6-150 10-1 3
 # ./TriangleCounting ../data/${1}/edges.csv 10000 1-0.001 2 6-150 10-1 4
 # ./TriangleCounting ../data/${1}/edges.csv 10000 1-0.001 0 0 10-1 2
