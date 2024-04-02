@@ -103,6 +103,7 @@ void ReadEdges(map<int, int> *a_mat, int *node_order){
 		if(node_order[node1] < NodeNum && node_order[node2] < NodeNum){
 			a_mat[node_order[node1]][node_order[node2]] = 1;
 			a_mat[node_order[node2]][node_order[node1]] = 1;
+			std::cout << node1 << " " << node2 << std::endl
 		}
 	}
 	fclose(fp);
